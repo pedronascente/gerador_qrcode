@@ -1,0 +1,17 @@
+{
+    "name": "desenvolvimento/gerador_qrcode",
+    "description": "pedro",
+    "authors": [
+        {
+            "name": "pedro nascente",
+            "email": "nascente3d@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "chillerlan/php-qrcode": "dev-main"
+    },
+    "require-dev": {
+        "amphp/phpunit-util": "^2.0"
+    }
+}

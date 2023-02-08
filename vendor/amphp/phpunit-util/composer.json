@@ -1,0 +1,37 @@
+{
+    "name": "amphp/phpunit-util",
+    "homepage": "https://amphp.org/phpunit-util",
+    "description": "Helper package to ease testing with PHPUnit.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niklas Keller",
+            "email": "me@kelunik.com"
+        },
+        {
+            "name": "Aaron Piotrowski",
+            "email": "aaron@trowski.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/amphp/phpunit-util/issues"
+    },
+    "require": {
+        "php": ">=7.1",
+        "phpunit/phpunit": "^6 | ^7 | ^8 | ^9"
+    },
+    "require-dev": {
+        "amphp/amp": "^2",
+        "amphp/php-cs-fixer-config": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amp\\PHPUnit\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Amp\\PHPUnit\\Test\\": "test"
+        }
+    }
+}
